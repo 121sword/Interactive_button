@@ -8,13 +8,19 @@ An interactive button
 <link rel="stylesheet" href="styles.css">
 </title>
 <body>
-<h1> This is an intercative button.</h1>
+<h1> <span id="newtext">This is an intercative button.</span></h1>
 
 <!--This is the button-->
 <button id="button">
 Interactive button
-</button>  
+</button>
 
+<script>
+function clickaction(){
+newtext.textContent = "You have pressed the button now."
+
+}
+</script>
 </body>
 
 </html>
